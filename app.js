@@ -9,7 +9,8 @@ const AppWindow = () => {
             webSecurity:true,
             nodeIntegration:false,
             preload:path.join(app.getAppPath(),"renderer.js")
-        }
+        },
+        frame:false
     })
     root.loadFile("index.html")
 }
