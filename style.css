@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    display: grid;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1.7em auto;
+}
+
+.titlebar{
+    background-color: green;
+    display: grid;
+    grid-template-columns: auto 2.7em 2.7em 2.7em;
+}
+
+#title{
+    color: white;
+    font-size: 1.3em;
+    padding-left: 1em;
+}
+
+.mainbtn{
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    font-size: 1em;
+    /* font-weight: bold; */
+}
+
+.mainbtn:hover{
+    background-color: limegreen;
+    color: black;
+}
+
+.compression_div{
+    background-color: rgb(219, 219, 0);
+    width: 100%;
+    height: calc(100vh - 1.7em);
+}
+
+.compressors{
+    background-color: white;
+    padding: 10px;
+    margin: 30px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 1px black;
+}
+
+.compressors p{
+    font-size: 1.3em;
+}
+
+.compress_btn{
+    font-size: 1.3em;
+    margin: 0.3em;
+    background-color: greenyellow;
+    border: 0px solid black;
+    padding: 0.3em;
+    text-transform: capitalize;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 1px black;
+    cursor: pointer;
+}
+
+.compress_btn:hover{
+    background-color: yellow;
+}

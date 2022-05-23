@@ -1,0 +1,15 @@
+{
+  "name": "file-compressor",
+  "version": "1.0.0",
+  "description": "This is a Simple File Compressrion",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compressing": "^1.5.1",
+    "electron": "^18.2.4"
+  }
+}
